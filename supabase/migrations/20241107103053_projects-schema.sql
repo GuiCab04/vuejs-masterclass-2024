@@ -9,5 +9,5 @@ create table
     name text not null,
     slug text unique not null,
     status current_status default 'in-progress' not null,
-    collaboratos text array default array[]::varchar[] not null
+    collaborators text array default array[]::varchar[] not null
   );
