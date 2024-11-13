@@ -42,7 +42,7 @@ export const taskQuery = (id: string) => {
       projects (
         id,
         name,
-        slug,
+        slug
       )
     `,
     )
